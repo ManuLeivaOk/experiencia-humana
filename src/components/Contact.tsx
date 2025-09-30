@@ -25,13 +25,11 @@ export default function ContactForm() {
 
   return (
     <section
-      className="p-6 flex justify-content-center"
+      className="py-6 md:px-6 flex justify-content-center"
     >
       <Card
-        className="p-6"
+        className="p-2 md:p-6 w-full mx-5 md:mx-0"
         style={{
-          width: "100%",
-          maxWidth: "600px",
           borderRadius: "16px",
           boxShadow: "0 8px 24px rgba(0,0,0,0.1)",
           background: "#fff",

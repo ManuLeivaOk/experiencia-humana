@@ -30,7 +30,7 @@ const cursos = [
 export default function Courses() {
   return (
     <section
-      className="p-6 flex flex-column align-items-center"
+      className="py-6 flex flex-column align-items-center"
       style={{ background: "#f4ebda" }}
     >
       <h2
