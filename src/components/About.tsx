@@ -40,7 +40,7 @@ export default function About() {
 
       <CustomDivider title="Coordinadoras" />
 
-      <div className="grid justify-content-center gap-4 mb-7">
+      <div className="grid justify-content-center mb-7" style={{ maxWidth: "1200px", margin: "0 auto" }}>
         {duenas.map((d, i) => (
           <div key={i} className="col-12 md:col-4 flex justify-content-center">
             <Card
@@ -125,7 +125,7 @@ export default function About() {
 
       <CustomDivider title="Equipo de trabajo" />
 
-      <div className="grid justify-content-center gap-4 mb-7">
+      <div className="grid justify-content-center" style={{ maxWidth: "1200px", margin: "0 auto" }}>
         {duenas.map((d, i) => (
           <div key={i} className="col-12 md:col-4 flex justify-content-center">
             <Card
