@@ -1,18 +1,18 @@
-'use client';
-
-import { Button } from 'primereact/button';
+"use client";
+import Nav from "@/components/NavBar";
+import Nosotros from "@/components/About";
+import ContactForm from "@/components/Contact";
+import Courses from "@/components/Courses";
 
 export default function HomePage() {
-
   return (
-    <div className="grid">
-      <div className="col-12 md:col-6">
-        <div className="p-4 border-round shadow-2">
-          <h2>Bienvenido</h2>
-          <p>Este es el inicio de tu app con Next.js + PrimeReact + PrimeFlex</p>
-          <Button label="Ingresar" icon="pi pi-sign-in" />
-        </div>
-      </div>
+    <div className="">
+      <Nav />
+      <Nosotros />
+      <div className="divider-modern"></div>;
+      <ContactForm />
+      <div className="divider-modern"></div>;
+      <Courses />
     </div>
   );
 }

@@ -5,7 +5,7 @@ export default function Nav() {
   const items = [
     {
       label: "Inicio",
-      command: () => {}, // no redirige
+      command: () => {},
     },
     {
       label: "Nosotros",

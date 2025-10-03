@@ -28,7 +28,7 @@ export default function ContactForm() {
       className="py-6 md:px-6 flex justify-content-center"
     >
       <Card
-        className="p-2 md:p-6 w-full mx-5 md:mx-0"
+        className="p-2 md:p-6 w-full mx-5 md:mx-0 md:w-6"
         style={{
           borderRadius: "16px",
           boxShadow: "0 8px 24px rgba(0,0,0,0.1)",

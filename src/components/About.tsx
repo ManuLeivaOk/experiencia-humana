@@ -40,7 +40,7 @@ export default function About() {
 
       <CustomDivider title="Coordinadoras" />
 
-      <div className="grid justify-content-center mb-7">
+      <div className="grid justify-content-center gap-4 mb-7">
         {duenas.map((d, i) => (
           <div key={i} className="col-12 md:col-4 flex justify-content-center">
             <Card
@@ -48,6 +48,7 @@ export default function About() {
               style={{
                 width: "100%",
                 maxWidth: "340px",
+                borderRadius: "16px",
                 minHeight: "460px",
                 display: "flex",
                 flexDirection: "column",
