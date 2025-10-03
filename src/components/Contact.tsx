@@ -25,8 +25,14 @@ export default function ContactForm() {
 
   return (
     <section
-      className="py-6 md:px-6 flex justify-content-center"
+      className="py-6 md:px-6 flex flex-column align-items-center justify-content-center"
     >
+      <h2
+        className="text-center mb-6"
+        style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#533630" }}
+      >
+         Formulario de contacto
+      </h2>
       <Card
         className="p-2 md:p-6 w-full mx-5 md:mx-0 md:w-6"
         style={{
@@ -39,7 +45,7 @@ export default function ContactForm() {
           className="text-center mb-6"
           style={{ fontSize: "2rem", fontWeight: "bold", color: "#533630" }}
         >
-          Contáctanos
+          Dejanos tu mensaje
         </h2>
 
         <form onSubmit={handleSubmit} className="flex flex-column gap-4">
