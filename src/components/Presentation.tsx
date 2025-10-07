@@ -1,21 +1,8 @@
 "use client";
-import { Divider } from "primereact/divider";
 
 export default function Presentation() {
   return (
     <section className="flex flex-column align-items-center justify-content-center text-center px-4 py-6">
-      <h2
-        className="mb-4"
-        style={{
-          fontSize: "2.5rem",
-          fontWeight: "bold",
-          color: "#533630",
-          letterSpacing: "1px",
-        }}
-      >
-        Breve presentación
-      </h2>
-
       <div
         className="text-center shadow-4 border-round-xl"
         style={{
