@@ -151,7 +151,7 @@ export default function Recursos() {
             <div
               key={r.id}
               style={{
-                flex: "0 1 320px", // crece 0, no shrink? allow shrink, base 320
+                flex: "0 1 320px",
                 maxWidth: 320,
                 width: "100%",
               }}
@@ -160,10 +160,11 @@ export default function Recursos() {
                 className="shadow-3 flex flex-column"
                 style={{
                   width: "100%",
-                  height: "100%", // que todas ocupen el mismo alto disponible
-                  minHeight: 340, // 🔑 altura mínima igual para todas
+                  height: "100%", 
+                  minHeight: 340, 
                   padding: "1.25rem",
                   borderRadius: 8,
+                  background: "linear-gradient(180deg, #f9f9f7 0%, #f3f4ee 100%)",
                 }}
               >
                 {/* Bloque de contenido fijo */}

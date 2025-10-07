@@ -24,7 +24,7 @@ const cursos = [
     descripcion:
       "Capacítate en habilidades de autoconocimiento y liderazgo para potenciar tu desarrollo en todas las áreas de tu vida.",
     img: "/terapia.webp",
-  },
+  }
 ];
 
 export default function Courses() {
@@ -36,7 +36,7 @@ export default function Courses() {
         className="text-center mb-6"
         style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#533630" }}
       >
-        Nuestros Cursos
+        Nuestras Propuestas
       </h2>
 
       <div className="grid justify-content-center gap-4">
@@ -48,10 +48,10 @@ export default function Courses() {
                 width: "100%",
                 maxWidth: "340px",
                 borderRadius: "16px",
-                background: "#fff",
                 padding: "1rem",
                 display: "flex",
                 flexDirection: "column",
+                background: "linear-gradient(180deg, #f9f9f7 0%, #f3f4ee 100%)",
               }}
             >
               {/* Imagen */}

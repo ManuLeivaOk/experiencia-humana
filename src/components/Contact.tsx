@@ -13,7 +13,9 @@ export default function ContactForm() {
     mensaje: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -24,21 +26,19 @@ export default function ContactForm() {
   };
 
   return (
-    <section
-      className="py-6 md:px-6 flex flex-column align-items-center justify-content-center"
-    >
+    <section className="py-6 md:px-6 flex flex-column align-items-center justify-content-center">
       <h2
         className="text-center mb-6"
         style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#533630" }}
       >
-         Formulario de contacto
+        Formulario de contacto
       </h2>
       <Card
         className="p-2 md:p-6 w-full mx-5 md:mx-0 md:w-6"
         style={{
           borderRadius: "16px",
           boxShadow: "0 8px 24px rgba(0,0,0,0.1)",
-          background: "#fff",
+          background: "linear-gradient(180deg, #f9f9f7 0%, #f3f4ee 100%)",
         }}
       >
         <h2

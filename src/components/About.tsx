@@ -53,6 +53,7 @@ export default function About() {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
+                background: "linear-gradient(180deg, #f9f9f7 0%, #f3f4ee 100%)",
               }}
             >
               {/* Imagen circular */}
@@ -138,6 +139,7 @@ export default function About() {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
+                background: "linear-gradient(180deg, #f9f9f7 0%, #f3f4ee 100%)",
               }}
             >
               {/* Imagen circular */}

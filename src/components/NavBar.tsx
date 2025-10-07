@@ -27,7 +27,7 @@ export default function Nav() {
 
   const start = (
     <span
-    className="mr-2"
+      className="mr-2"
       style={{
         fontSize: "1.5rem",
         fontWeight: "bold",
