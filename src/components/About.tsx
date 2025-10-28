@@ -1,30 +1,29 @@
 "use client";
 import { Card } from "primereact/card";
 import Image from "next/image";
-import { Divider } from "primereact/divider";
 import CustomDivider from "./Divider";
 
 const duenas = [
   {
-    nombre: "Lic. Ana María del Rosario Gómez",
+    nombre: "Lic. María Florencia Provens",
     rol: "Psicóloga clínica",
     descripcion:
       "Especialista en terapia cognitivo-conductual con más de 10 años de experiencia en el acompañamiento de adultos y adolescentes.",
-    img: "/mujer.png",
+    img: "/flo.png",
   },
   {
-    nombre: "Lic. María Pérez",
+    nombre: "Lic. Juliana Agüero Margaritini",
     rol: "Terapia Familiar",
     descripcion:
       "Facilita procesos de integración y resolución de conflictos en el ámbito familiar, trabajando en la construcción de vínculos saludables.",
-    img: "/mujer.png",
+    img: "/ju.png",
   },
   {
-    nombre: "Lic. Sofía López",
+    nombre: "Lic. Macarena Barbosa",
     rol: "Docente y Formadora",
     descripcion:
       "Capacitadora en programas de desarrollo personal y profesional. Ha diseñado talleres de formación para instituciones educativas.",
-    img: "/mujer.png",
+    img: "/ma.png",
   },
 ];
 
