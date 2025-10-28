@@ -6,24 +6,21 @@ import CustomDivider from "./Divider";
 const duenas = [
   {
     nombre: "Lic. María Florencia Provens",
-    rol: "Psicóloga clínica",
     descripcion:
-      "Especialista en terapia cognitivo-conductual con más de 10 años de experiencia en el acompañamiento de adultos y adolescentes.",
-    img: "/flo.png",
+      "Soy psicóloga, apasionada por mi profesión. Me dedico al ámbito clínico, realizando procesos individuales y de pareja con jóvenes y adultos que deseen iniciar un camino de autoconocimiento. Trabajo desde la corriente Sistémica, y desde las Terapias Conductuales Contextuales.",
+    img: "/flo.webp",
   },
   {
     nombre: "Lic. Juliana Agüero Margaritini",
-    rol: "Terapia Familiar",
     descripcion:
       "Facilita procesos de integración y resolución de conflictos en el ámbito familiar, trabajando en la construcción de vínculos saludables.",
-    img: "/ju.png",
+    img: "/ju.webp",
   },
   {
-    nombre: "Lic. Macarena Barbosa",
-    rol: "Docente y Formadora",
+    nombre: "Lic. Macarena Barboza",
     descripcion:
       "Capacitadora en programas de desarrollo personal y profesional. Ha diseñado talleres de formación para instituciones educativas.",
-    img: "/ma.png",
+    img: "/ma.webp",
   },
 ];
 
@@ -77,7 +74,7 @@ export default function About() {
                   fontWeight: "bold",
                   color: "#533630",
                   textAlign: "center",
-                  height: "2.2em", // fuerza que tenga máximo 2 líneas
+                  height: "2.4em",
                   overflow: "hidden",
                   textOverflow: "ellipsis",
                   display: "-webkit-box",
@@ -89,7 +86,7 @@ export default function About() {
               </h3>
 
               {/* Rol */}
-              <h4
+              {/* <h4
                 className="mt-0 mb-5"
                 style={{
                   fontSize: "1.2rem",
@@ -99,7 +96,7 @@ export default function About() {
                 }}
               >
                 {d.rol}
-              </h4>
+              </h4> */}
 
               {/* Descripción */}
               <p
@@ -109,7 +106,7 @@ export default function About() {
                   lineHeight: "1.5",
                   textAlign: "justify",
                   display: "-webkit-box",
-                  WebkitLineClamp: 6,
+                  WebkitLineClamp: 8,
                   WebkitBoxOrient: "vertical",
                   overflow: "hidden",
                   flexGrow: 1, // ocupa el espacio restante
@@ -163,7 +160,7 @@ export default function About() {
                   fontWeight: "bold",
                   color: "#533630",
                   textAlign: "center",
-                  height: "2.2em", // fuerza que tenga máximo 2 líneas
+                  height: "2.4em", // fuerza que tenga máximo 2 líneas
                   overflow: "hidden",
                   textOverflow: "ellipsis",
                   display: "-webkit-box",
@@ -175,7 +172,7 @@ export default function About() {
               </h3>
 
               {/* Rol */}
-              <h4
+              {/* <h4
                 className="mt-0 mb-5"
                 style={{
                   fontSize: "1.2rem",
@@ -185,7 +182,7 @@ export default function About() {
                 }}
               >
                 {d.rol}
-              </h4>
+              </h4> */}
 
               {/* Descripción */}
               <p
