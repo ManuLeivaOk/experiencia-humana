@@ -8,19 +8,19 @@ const duenas = [
     nombre: "Lic. María Florencia Provens",
     descripcion:
       "Soy psicóloga, apasionada por mi profesión. Me dedico al ámbito clínico, realizando procesos individuales y de pareja con jóvenes y adultos que deseen iniciar un camino de autoconocimiento. Trabajo desde la corriente Sistémica, y desde las Terapias Conductuales Contextuales.",
-    img: "/flo.webp",
+    img: "/flo.png",
   },
   {
     nombre: "Lic. Juliana Agüero Margaritini",
     descripcion:
       "Facilita procesos de integración y resolución de conflictos en el ámbito familiar, trabajando en la construcción de vínculos saludables.",
-    img: "/ju.webp",
+    img: "/ju.png",
   },
   {
     nombre: "Lic. Macarena Barboza",
     descripcion:
       "Capacitadora en programas de desarrollo personal y profesional. Ha diseñado talleres de formación para instituciones educativas.",
-    img: "/ma.webp",
+    img: "/ma.png",
   },
 ];
 
