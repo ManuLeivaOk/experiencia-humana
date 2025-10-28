@@ -4,7 +4,7 @@ export default function Presentation() {
   return (
     <section className="flex flex-column align-items-center justify-content-center text-center px-4 py-6">
       <div
-        className="text-center shadow-4 border-round-xl"
+        className="text-center shadow-4 border-round-xl px-4 mb-3 mt-6"
         style={{
           maxWidth: "800px",
           fontSize: "1.2rem",
@@ -15,15 +15,9 @@ export default function Presentation() {
       >
         <p className="mb-4">
           Hola. Somos <strong>Maca, Flor y Juli</strong>. Tres amigas
-          psicólogas, cofundadoras de <strong>Experiencia Humana</strong>, un
+          psicólogas, co-fundadoras de <strong>Experiencia Humana</strong>, un
           espacio de Salud Mental que ofrece procesos psicoterapéuticos,
-          acompañando a jóvenes y adultos a construir una vida con sentido.
-        </p>
-
-        <p className="mb-4">
-          Soñamos con un espacio vivo, donde cada persona pueda sentirse
-          acompañada en su búsqueda interna, desde el cuerpo, el deseo y el
-          coraje de ser.
+          acompañando a jóvenes y adultos a construir una vida con sentido, aún en presencia de dolor.
         </p>
 
         <p>

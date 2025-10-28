@@ -96,7 +96,7 @@ export default function Recursos() {
           className="text-center mb-6"
           style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#533630" }}
         >
-          Recursos para profesionales y pacientes
+          Recursos descargables para tu día a día
         </h2>
 
         {/* filtros */}

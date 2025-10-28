@@ -5,22 +5,25 @@ import Image from "next/image";
 
 const cursos = [
   {
-    titulo: "Mindfulness y Conexión",
-    subtitulo: "Bienestar y equilibrio emocional",
+    titulo: "Sesiones individuales, de pareja y familiares",
     descripcion:
       "Aprende técnicas de mindfulness para reducir el estrés y mejorar tu concentración y bienestar general.",
     img: "/terapia.webp",
   },
   {
-    titulo: "Terapia Familiar Integrativa",
-    subtitulo: "Fortalecimiento de vínculos",
+    titulo: "Talleres de Mindfulness",
     descripcion:
       "Explora estrategias para mejorar la comunicación y resolver conflictos dentro de la familia de manera saludable.",
     img: "/terapia.webp",
   },
   {
-    titulo: "Desarrollo Personal y Profesional",
-    subtitulo: "Crecimiento integral",
+    titulo: "Talleres de Orientación vocacional",
+    descripcion:
+      "Capacítate en habilidades de autoconocimiento y liderazgo para potenciar tu desarrollo en todas las áreas de tu vida.",
+    img: "/terapia.webp",
+  },
+  {
+    titulo: "Acompañamiento en criaznza",
     descripcion:
       "Capacítate en habilidades de autoconocimiento y liderazgo para potenciar tu desarrollo en todas las áreas de tu vida.",
     img: "/terapia.webp",
@@ -89,7 +92,7 @@ export default function Courses() {
                 </h3>
 
                 {/* Subtítulo */}
-                <h4
+{/*                 <h4
                   className="mt-0 mb-3 text-center"
                   style={{
                     fontSize: "1.1rem",
@@ -100,7 +103,7 @@ export default function Courses() {
                   }}
                 >
                   {curso.subtitulo}
-                </h4>
+                </h4> */}
 
                 {/* Descripción */}
                 <p

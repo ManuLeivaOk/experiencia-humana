@@ -6,6 +6,8 @@ import Courses from "@/components/Courses";
 import Recursos from "@/components/Resources";
 import Header from "@/components/Header";
 import Presentation from "@/components/Presentation";
+import { Button } from "primereact/button";
+import FloatingWhatsApp from "@/components/ButtonWpp";
 
 export default function HomePage() {
   return (
@@ -21,6 +23,7 @@ export default function HomePage() {
       <Recursos />
       <div className="divider-modern"></div>;
       <ContactForm />
+      <FloatingWhatsApp />
     </div>
   );
 }

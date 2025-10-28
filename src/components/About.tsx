@@ -144,7 +144,7 @@ export default function About() {
                 style={{ width: "180px", height: "180px" }}
               >
                 <Image
-                  src={d.img}
+                  src={'/mujer.png'}
                   alt={d.nombre}
                   width={180}
                   height={180}

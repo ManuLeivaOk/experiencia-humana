@@ -4,31 +4,20 @@ import { Divider } from "primereact/divider";
 export default function Header() {
   return (
     <header
-      className="flex flex-column align-items-center justify-content-center text-center py-6 px-3 mt-2"
+      className="flex flex-column align-items-center justify-content-center text-center py-6 px-3 mt-2 shadow-xl"
       style={{
-        background: "linear-gradient(135deg, #f8f9f4, #ecebe4)",
+        /* background: "linear-gradient(135deg, #f8f9f4, #ecebe4)", */
+        background:
+          "linear-gradient(135deg, #d8e4b5 0%, #f6efe1 45%, #c9acc8 100%)",
         borderBottom: "2px solid #cbda9a",
       }}
     >
       {/* Logo */}
       <div className="mb-3 flex align-items-center justify-content-center gap-3">
-        <div
-          style={{
-            width: "60px",
-            height: "60px",
-            borderRadius: "50%",
-            backgroundColor: "#cbda9a",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-          }}
-        >
-          <i
-            className="pi pi-heart-fill"
-            style={{ fontSize: "1.8rem", color: "#533630" }}
-          ></i>
-        </div>
+        <i
+          className="pi pi-heart-fill"
+          style={{ fontSize: "1.8rem", color: "#533630" }}
+        ></i>
       </div>
 
       {/* Nombre */}
@@ -46,14 +35,17 @@ export default function Header() {
 
       {/* Lema */}
       <p
+        className="mt-3"
         style={{
           fontSize: "1.2rem",
           color: "#64754c",
           marginTop: "0.5rem",
           fontStyle: "italic",
+          width: "60%",
+          lineHeight: 1.5,
         }}
       >
-        Acompañando procesos de cambio y bienestar emocional
+        Un espacio para mirar hacia a dentro y construir una vida con sentido.
       </p>
 
       {/* Divider decorativo */}
