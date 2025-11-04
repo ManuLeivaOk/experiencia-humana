@@ -6,7 +6,6 @@ import Courses from "@/components/Courses";
 import Recursos from "@/components/Resources";
 import Header from "@/components/Header";
 import Presentation from "@/components/Presentation";
-import { Button } from "primereact/button";
 import FloatingWhatsApp from "@/components/ButtonWpp";
 
 export default function HomePage() {

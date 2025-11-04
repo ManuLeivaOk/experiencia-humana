@@ -1,10 +1,10 @@
 "use client";
-import { Divider } from "primereact/divider";
+import Image from "next/image";
 
 export default function Header() {
   return (
     <header
-      className="flex flex-column align-items-center justify-content-center text-center py-6 px-3 mt-2 shadow-xl"
+      className="flex flex-column align-items-center justify-content-center text-center pb-5 px-3 mt-2 shadow-xl"
       style={{
         /* background: "linear-gradient(135deg, #f8f9f4, #ecebe4)", */
         background:
@@ -13,11 +13,14 @@ export default function Header() {
       }}
     >
       {/* Logo */}
-      <div className="mb-3 flex align-items-center justify-content-center gap-3">
-        <i
-          className="pi pi-heart-fill"
-          style={{ fontSize: "1.8rem", color: "#533630" }}
-        ></i>
+      <div className="mb-0 flex align-items-center justify-content-center gap-3">
+        <Image
+          src="/logo1.svg"
+          width={500}
+          height={500}
+          alt="Logo de Experiencia Humana"
+          style={{ width: "200px", height: "200px", borderRadius: "50%" }}
+        />
       </div>
 
       {/* Nombre */}
@@ -47,13 +50,6 @@ export default function Header() {
       >
         Un espacio para mirar hacia a dentro y construir una vida con sentido.
       </p>
-
-      {/* Divider decorativo */}
-      <Divider
-        align="center"
-        type="solid"
-        style={{ width: "80px", borderColor: "#cbda9a", marginTop: "1.5rem" }}
-      />
     </header>
   );
 }
